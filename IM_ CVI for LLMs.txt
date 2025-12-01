@@ -1,0 +1,88 @@
+Of course. Here is a more detailed and updated Corporate Visual Identity (CVI) based on all the provided materials, including the newer presentation slides and the PowerPoint guide.
+
+### **Corporate Visual Identity: Implement Consulting Group (Updated)**
+
+This document outlines the refined and updated visual identity for Implement Consulting Group. The core style remains modern, minimalist, and human-centric, but has been "tidied up" to be more insightful, trustworthy, and professional while retaining its playful and human DNA. The new direction emphasizes a "less-is-more" philosophy.
+
+#### **1. Logo**
+
+*   **Primary Mark:** The logo is "IMPLEMENT" in a clean, sans-serif typeface, often accompanied by "CONSULTING GROUP_" underneath or to the side. A simplified "IM_" version is used as a recurring branding element.
+*   **Placement:** The full logo or the "IM_" mark is consistently placed vertically in the top right corner of compositions. This creates a distinctive and reliable anchor point for the brand across all materials.
+*   **Color:** The logo is typically rendered in white on dark backgrounds or a dark charcoal/black on light backgrounds.
+
+#### **2. Color Palette**
+
+The color palette has been adjusted to be more cohesive, encouraging a "tone-in-tone" effect. The goal is to create a calm, sophisticated look by using one or a maximum of two main colors per slide, supported by their nuances.
+
+*   **Primary Palette (Neutrals):**
+    *   **IM Black:** A soft, deep charcoal used for dark backgrounds and text.
+    *   **Ash-Grey:** A versatile, modern grey used for backgrounds and graphic elements.
+    *   **Egg/Off-White:** A warm, creamy white that serves as the primary light background color.
+*   **Secondary Palette (Accents):** This is a muted, earthy, and sophisticated range of colors.
+    *   **Deep Red:** A rich, dark maroon for creating strong, elegant backgrounds.
+    *   **Brown:** A warm, earthy tone.
+    *   **Piggy (Muted Pink):** A soft, dusty rose for a gentle, human touch.
+    *   **Yellow:** A distinctive, warm ochre used for highlighting and accents.
+    *   **Dark & Light Greens:** Muted sage and deeper forest greens that add a natural, stable feel.
+*   **Usage Guidelines:**
+    *   Avoid using several secondary colors on the same slide.
+    *   Utilize nuances of a single color family to create depth without visual clutter ("tone-in-tone").
+    *   Text color should generally be neutral (black, white, or grey) and not adopt accent colors.
+
+#### **3. Typography**
+
+The brand has formally updated its font library to balance elegance with modern readability.
+
+*   **Display/Headline Font: Palatino Linotype**
+    *   **Usage:** This classic serif font is the new display font, replacing Impact. It is used to highlight content and for primary headings to convey a sense of authority and insight.
+    *   **Rules:**
+        *   Should **never be bolded**.
+        *   Should **never be in all-caps** (unless for abbreviations like SAP).
+        *   Italics can be used sparingly to emphasize a word or two, but not for full sentences.
+        *   Should not be used for long sentences.
+*   **Main/Body Font: Arial**
+    *   **Usage:** Arial remains the primary workhorse font for all body copy, subheadings, and general content within presentations. Its clean, sans-serif form ensures maximum readability.
+    *   **Hierarchy:** Typographic hierarchy is critical. It is achieved through size, weight (for Arial), and the contrast between Palatino Linotype and Arial. Headlines are large and airy, while body text is smaller and functional.
+
+#### **4. Imagery**
+
+Imagery is being scaled up and used more intentionally to add value.
+
+*   **Photography Style:** The style remains authentic, candid, and people-focused. Photos feature warm, natural lighting and showcase collaborative, real-world environments. The goal is to avoid the feel of staged stock photography.
+*   **Layout Integration:** Images are used more boldly than before, often occupying a significant portion of the layout (e.g., half-screen or full-screen backgrounds). This creates a more immersive and visually engaging experience.
+
+#### **5. Layout and Composition**
+
+The updated identity strictly enforces a cleaner, simpler layout philosophy.
+
+*   **No Layering:** The previous design's tendency to layer colored boxes, text boxes, and images on top of each other is now explicitly forbidden. The new rule is to use a single layer.
+*   **Compositional Options:**
+    1.  **Single Element:** A single photo, chart, or block of text on a blank or colored background.
+    2.  **Side-by-Side Elements:** Placing elements next to each other, such as an image next to a block of text, often in a 50/50 or similar split.
+    3.  **Full-Size Background:** Using a single image or a solid color as the entire background for the slide.
+*   **White Space:** Generous use of "white space" (negative space) is heavily encouraged to make slides feel lighter, improve readability, and ensure the core message is clear.
+
+#### **6. Icons, Illustrations, and Graphic Elements**
+
+The use of graphic elements has been significantly refined and reduced.
+
+*   **Icons and Illustrations:**
+    *   **Usage:** They are to be used less frequently and only when they add clear, specific value to the message.
+    *   **Style:** The clean, minimalist line-art style remains.
+    *   **Backgrounds:** Colored layers or fills behind icons are no longer used. If a background is absolutely necessary, it should be a very subtle, neutral color.
+    *   **Cropping:** Cropping illustrations is encouraged to create more visual interest.
+*   **Retired Elements:**
+    *   **Handwritten Font:** The informal, "handwritten" script font has been officially retired as it no longer adds value.
+    *   **Impact Font:** Replaced by Palatino Linotype for display purposes.
+*   **New/Retained Elements:**
+    *   **Shapes:** Simple geometric shapes like circles are used for diagrams and to frame numbers or short text snippets.
+    *   **Stickers:** Pre-designed tags (e.g., "CONFIDENTIAL," "FOR DISCUSSION") are available in a clean, sans-serif style.
+    *   **Hand-Drawn Elements:** A new set of elegant, simple hand-drawn shapes (arrows, circles, squares) is available to add a human touch without the clutter of the old handwritten font.
+
+#### **Overall Mood and Tone**
+
+The updated CVI strengthens the brand's position as a premium, insightful consultancy that is deeply human. It is:
+*   **Confident and Clear:** Achieved through simplified layouts and a strong typographic hierarchy.
+*   **Sophisticated and Calm:** Driven by the muted, tone-in-tone color scheme.
+*   **Human and Approachable:** Maintained through authentic photography and carefully chosen graphic elements.
+*   **Purposeful:** Every element on a slide should have a clear purpose, adding value rather than creating "noise."

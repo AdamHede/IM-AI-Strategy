@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Wiki - Implement Consulting Group</title>
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        body {
+            background-color: #F9F8F4; /* var(--egg-white) */
+            color: #1A1A1A; /* var(--im-black) */
+            font-family: 'Arial', sans-serif; /* var(--font-body) */
+            margin: 0;
+            padding: 0;
+            overflow-y: auto !important;
+            height: auto !important;
+            width: 100% !important;
+        }
+        
+        .wiki-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background-color: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        .wiki-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #1A1A1A;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* Markdown Content Styles */
+        .markdown-body {
+            line-height: 1.6;
+        }
+
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            font-family: 'Palatino Linotype', 'Palatino', serif; /* var(--font-display) */
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .markdown-body h1 { font-size: 2.5rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        .markdown-body h2 { font-size: 2rem; }
+        .markdown-body h3 { font-size: 1.5rem; }
+        
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body ul, .markdown-body ol { margin-bottom: 1em; padding-left: 2em; }
+        .markdown-body li { margin-bottom: 0.5em; }
+        
+        .markdown-body a {
+            color: #660000; /* var(--deep-red) */
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .markdown-body a:hover {
+            border-bottom-color: #660000;
+        }
+
+        .markdown-body blockquote {
+            border-left: 4px solid #D4AF37; /* var(--im-yellow) */
+            padding-left: 1em;
+            color: #666;
+            font-style: italic;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="wiki-nav">
+        <a href="../../index.html" class="back-link">
+            <span>←</span> Back to Presentation
+        </a>
+    </nav>
+
+    <div class="wiki-container">
+        <div class="markdown-body">
+            <h1>Strategic Assumptions</h1>
+<p><em>The foundational truths we believe about the future market, technology, and competition. If these are wrong, our strategy risks failure.</em></p>
+<h2>Technology Landscape</h2>
+<ol>
+<li><strong>The Oligopoly of Intelligence</strong>: We assume that large, general-purpose models (ChatGPT, Gemini, etc.) will dominate. We do <em>not</em> believe in a fragmented future of thousands of niche, vertical AIs.<ul>
+<li><em>Implication</em>: We should not invest in building our own LLMs (Foundation Models). We should invest in the &quot;Application Layer&quot; and &quot;Context Layer&quot; on top of the giants.</li>
+</ul>
+</li>
+<li><strong>The 5-Year Horizon</strong>: In 2030, people will still be conversing with these major models. The interface might evolve, but the &quot;Big Model&quot; paradigm holds.</li>
+</ol>
+<h2>Market Dynamics</h2>
+<ol>
+<li><strong>The &quot;Super-Intelligent&quot; Client</strong>: We assume clients will have access to the same powerful AI tools we do. &quot;Access to information&quot; is no longer a differentiator.</li>
+<li><strong>The B2B Barrier</strong>: We assume that despite AI, the mechanics of B2B sales (trust, networks, complex stakeholder management) will remain human-centric.</li>
+</ol>
+<h2>The Consultant&#39;s Role</h2>
+<ol>
+<li><strong>AI is Passive</strong>: We assume AI will remain a tool that requires <em>intent</em>. It can answer any &quot;How&quot;, but it cannot decide the &quot;Why&quot; or &quot;What Next&quot; without human direction.</li>
+</ol>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Wiki - Implement Consulting Group</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            background-color: #F9F8F4; /* var(--egg-white) */
+            color: #1A1A1A; /* var(--im-black) */
+            font-family: 'Arial', sans-serif; /* var(--font-body) */
+            margin: 0;
+            padding: 0;
+            overflow-y: auto !important;
+            height: auto !important;
+            width: 100% !important;
+        }
+        
+        .wiki-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background-color: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        .wiki-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #1A1A1A;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* Markdown Content Styles */
+        .markdown-body {
+            line-height: 1.6;
+        }
+
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            font-family: 'Palatino Linotype', 'Palatino', serif; /* var(--font-display) */
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .markdown-body h1 { font-size: 2.5rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        .markdown-body h2 { font-size: 2rem; }
+        .markdown-body h3 { font-size: 1.5rem; }
+        
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body ul, .markdown-body ol { margin-bottom: 1em; padding-left: 2em; }
+        .markdown-body li { margin-bottom: 0.5em; }
+        
+        .markdown-body a {
+            color: #660000; /* var(--deep-red) */
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .markdown-body a:hover {
+            border-bottom-color: #660000;
+        }
+
+        .markdown-body blockquote {
+            border-left: 4px solid #D4AF37; /* var(--im-yellow) */
+            padding-left: 1em;
+            color: #666;
+            font-style: italic;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="wiki-nav">
+        <a href="../index.html" class="back-link">
+            <span>←</span> Back to Presentation
+        </a>
+    </nav>
+
+    <div class="wiki-container">
+        <div class="markdown-body">
+            <h1>AI Strategy: The Living Wiki</h1>
+<p>Welcome to the strategic brain of Implement Consulting Group&#39;s AI initiative. This repository is designed to be a living document, evolving as we answer the &quot;Beautiful Questions&quot; that define our future.</p>
+<h2>The Current Strategic Dilemmas</h2>
+<p><em>The questions we are actively wrestling with.</em></p>
+<h3>1. The Senior Inertia</h3>
+<blockquote>
+<p><em>How do we bridge the gap between &quot;AI-native&quot; juniors and &quot;AI-reluctant&quot; seniors?</em></p>
+</blockquote>
+<ul>
+<li><strong>The Dilemma</strong>: Our seniors have the wisdom but resist the tool. Our juniors have the tool but lack the wisdom. How do we fuse them before they drift apart?</li>
+</ul>
+<h3>2. The &quot;Builder&quot; Dilemma</h3>
+<blockquote>
+<p><em>How do we channel the &quot;builder&quot; minority without becoming a software company?</em></p>
+</blockquote>
+<ul>
+<li><strong>The Dilemma</strong>: We have people who <em>want</em> to build world-class tools. If we don&#39;t let them, they might leave. If we do let them, we might waste millions building things we should have bought.</li>
+</ul>
+<h3>3. The Pricing Paradox</h3>
+<blockquote>
+<p><em>How do we price &quot;AI-augmented&quot; work?</em></p>
+</blockquote>
+<ul>
+<li><strong>The Dilemma</strong>: If we deliver a 6-month project in 6 weeks, do we charge 1/4 of the price? Or do we charge for the <em>value</em>? If the latter, how do we convince procurement?</li>
+</ul>
+<h3>4. The M&amp;A Accelerator</h3>
+<blockquote>
+<p><em>Do we buy small AI boutiques or traditional firms to upgrade?</em></p>
+</blockquote>
+<ul>
+<li><strong>The Dilemma</strong>: Buying AI boutiques gives us talent but culture clashes. Buying traditional firms gives us market share but &quot;legacy debt.&quot; Which is the faster route to dominance?</li>
+</ul>
+<h3>5. The &quot;Soul&quot; of the Firm</h3>
+<blockquote>
+<p><em>As we automate, what is the <em>one</em> thing we will <em>never</em> automate?</em></p>
+</blockquote>
+<ul>
+<li><strong>The Dilemma</strong>: Efficiency is addictive. We need a &quot;Red Line&quot; that defines our humanity. Is it the final client presentation? The difficult feedback session? The hiring interview?</li>
+</ul>
+<h2>The Strategy Cascade (Playing To Win)</h2>
+<p>We are building our strategy on the five integrated choices of the Playing To Win framework. Click on a module to explore the deep questions and emerging hypotheses.</p>
+<ol>
+<li><strong><a href="./01_Winning_Aspiration.html">Winning Aspiration</a></strong><ul>
+<li><em>The existential purpose. Why do we exist in an AI world?</em></li>
+</ul>
+</li>
+<li><strong><a href="./02_Where_To_Play.html">Where to Play</a></strong><ul>
+<li><em>The battlefield. Where is the &quot;Human Premium&quot; highest?</em></li>
+</ul>
+</li>
+<li><strong><a href="./03_How_To_Win.html">How to Win</a></strong><ul>
+<li><em>The differentiator. How do we scale &quot;Heart&quot; with &quot;Code&quot;?</em></li>
+</ul>
+</li>
+<li><strong><a href="./04_Capabilities.html">Capabilities</a></strong><ul>
+<li><em>The engine. What must we build to back up our promise?</em></li>
+</ul>
+</li>
+<li><a href="./05_Management_Systems.html">Management Systems</a></li>
+<li><strong><a href="./06_Strategic_Questions_and_Triggers.html">Strategic Questions &amp; Triggers</a></strong><ul>
+<li><em>The culture. How do we govern &quot;The Irregular&quot;?</em></li>
+</ul>
+</li>
+</ol>
+<h2>Supporting Intelligence</h2>
+<ul>
+<li><a href="./supporting_context/Context.html">Context &amp; Research</a></li>
+<li><a href="./supporting_context/Assumptions.html">Core Assumptions</a></li>
+<li><a href="./supporting_context/DNA.html">The &quot;Best Place&quot; DNA</a></li>
+</ul>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,285 @@
+:root {
+    /* CVI Colors */
+    --im-black: #1A1A1A;
+    /* Soft deep charcoal */
+    --ash-grey: #E5E5E5;
+    /* Modern grey */
+    --egg-white: #F9F8F4;
+    /* Warm creamy white */
+    --deep-red: #660000;
+    /* Rich dark maroon (Placeholder for Deep Red) */
+    --piggy-pink: #E6C6C6;
+    /* Muted pink */
+    --im-yellow: #D4AF37;
+    /* Ochre */
+
+    /* Fonts */
+    --font-display: 'Palatino Linotype', 'Palatino', serif;
+    --font-body: 'Arial', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: #000;
+    color: var(--im-black);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.presentation-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Slide Basics */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--egg-white);
+    /* Default light */
+    overflow: hidden;
+}
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+/* Themes */
+.slide[data-theme="dark"] {
+    background-color: var(--im-black);
+    color: var(--egg-white);
+}
+
+.slide[data-theme="grey"] {
+    background-color: var(--ash-grey);
+    color: var(--im-black);
+}
+
+.slide[data-theme="accent"] {
+    background-color: var(--deep-red);
+    color: var(--egg-white);
+}
+
+/* Layouts */
+.slide-content {
+    flex: 1;
+    padding: var(--slide-padding);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.center-text {
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.split-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: 40px;
+}
+
+.split-layout.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-column,
+.image-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Typography */
+h1 {
+    font-family: var(--font-display);
+    font-weight: normal;
+    /* Never bold */
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-family: var(--font-display);
+    font-weight: normal;
+    /* Never bold */
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    max-width: 600px;
+}
+
+.sub-headline {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.large-body {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Branding */
+.logo-mark {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+/* Images & Graphics */
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.slide-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation */
+.navigation-controls {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 10;
+    color: inherit;
+    /* Inherit from slide theme if possible, but fixed overlay needs care */
+    mix-blend-mode: difference;
+    /* Ensure visibility on all backgrounds */
+    color: white;
+}
+
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.slide-indicator {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: var(--im-black);
+    color: var(--egg-white);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: transform 0.2s;
+}
+
+.slide[data-theme="dark"] .cta-button {
+    background-color: var(--egg-white);
+    color: var(--im-black);
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Wiki Link */
+.wiki-link {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 100;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    mix-blend-mode: difference;
+    color: white;
+}
+
+.wiki-link:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.wiki-link .icon {
+    font-size: 1.2rem;
+}

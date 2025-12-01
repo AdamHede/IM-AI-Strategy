@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Wiki - Implement Consulting Group</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            background-color: #F9F8F4; /* var(--egg-white) */
+            color: #1A1A1A; /* var(--im-black) */
+            font-family: 'Arial', sans-serif; /* var(--font-body) */
+            margin: 0;
+            padding: 0;
+            overflow-y: auto !important;
+            height: auto !important;
+            width: 100% !important;
+        }
+        
+        .wiki-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background-color: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        .wiki-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #1A1A1A;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* Markdown Content Styles */
+        .markdown-body {
+            line-height: 1.6;
+        }
+
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            font-family: 'Palatino Linotype', 'Palatino', serif; /* var(--font-display) */
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .markdown-body h1 { font-size: 2.5rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        .markdown-body h2 { font-size: 2rem; }
+        .markdown-body h3 { font-size: 1.5rem; }
+        
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body ul, .markdown-body ol { margin-bottom: 1em; padding-left: 2em; }
+        .markdown-body li { margin-bottom: 0.5em; }
+        
+        .markdown-body a {
+            color: #660000; /* var(--deep-red) */
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .markdown-body a:hover {
+            border-bottom-color: #660000;
+        }
+
+        .markdown-body blockquote {
+            border-left: 4px solid #D4AF37; /* var(--im-yellow) */
+            padding-left: 1em;
+            color: #666;
+            font-style: italic;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="wiki-nav">
+        <a href="../index.html" class="back-link">
+            <span>←</span> Back to Presentation
+        </a>
+    </nav>
+
+    <div class="wiki-container">
+        <div class="markdown-body">
+            <h1>5. Management Systems</h1>
+<p><strong>The Culture</strong>: The systems, structures, and measures that support our choices.</p>
+<h2>The Current State</h2>
+<p>Flat hierarchy. &quot;Own the energy.&quot; Decentralized autonomy.</p>
+<h2>The Beautiful Questions</h2>
+<h3>1. Governing the Irregular</h3>
+<blockquote>
+<p><em>How do we manage risk without stifling experimentation?</em></p>
+</blockquote>
+<p><strong>The Reality</strong>: Liability is currently not a major issue for us (EU/Denmark context).</p>
+<ul>
+<li><strong>The Challenge</strong>: The real risk is not being sued, but losing our &quot;Common Sense&quot;. How do we maintain our speed and &quot;ask for forgiveness&quot; culture while ensuring we don&#39;t accidentally leak client secrets?</li>
+</ul>
+<h3>2. The Incentive Model</h3>
+<blockquote>
+<p><em>Do we reward &quot;Hours Billed&quot; or &quot;Value Created&quot;?</em></p>
+</blockquote>
+<p>If AI allows us to do 100 hours of work in 1 hour, the &quot;Billable Hour&quot; model is dead. What is the new management system for measuring and rewarding performance?</p>
+<h3>3. The Feedback Loop</h3>
+<blockquote>
+<p><em>How does the &quot;Edge&quot; teach the &quot;Center&quot;?</em></p>
+</blockquote>
+<p>Innovation happens at the edge (on client sites). We need a system that rapidly captures these edge-cases (new prompts, new use-cases) and distributes them to the whole firm instantly.</p>
+<h2>Emerging Hypotheses</h2>
+<ul>
+<li><strong>Hypothesis A</strong>: <strong>&quot;Value-Based Pricing&quot;</strong>. We shift our entire management system away from time-tracking to outcome-tracking.</li>
+<li><strong>Hypothesis B</strong>: <strong>&quot;The AI Council&quot;</strong>. A rotating body of diverse consultants (not just partners) who set the ethical and operational guidelines for AI usage, keeping it &quot;human-led.&quot;</li>
+</ul>
+<hr>
+<p><a href="./README.html">Back to Index</a></p>
+
+        </div>
+    </div>
+
+</body>
+</html>

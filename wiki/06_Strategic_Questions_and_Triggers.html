@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Wiki - Implement Consulting Group</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            background-color: #F9F8F4; /* var(--egg-white) */
+            color: #1A1A1A; /* var(--im-black) */
+            font-family: 'Arial', sans-serif; /* var(--font-body) */
+            margin: 0;
+            padding: 0;
+            overflow-y: auto !important;
+            height: auto !important;
+            width: 100% !important;
+        }
+        
+        .wiki-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            background-color: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        .wiki-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #1A1A1A;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        /* Markdown Content Styles */
+        .markdown-body {
+            line-height: 1.6;
+        }
+
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            font-family: 'Palatino Linotype', 'Palatino', serif; /* var(--font-display) */
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .markdown-body h1 { font-size: 2.5rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        .markdown-body h2 { font-size: 2rem; }
+        .markdown-body h3 { font-size: 1.5rem; }
+        
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body ul, .markdown-body ol { margin-bottom: 1em; padding-left: 2em; }
+        .markdown-body li { margin-bottom: 0.5em; }
+        
+        .markdown-body a {
+            color: #660000; /* var(--deep-red) */
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .markdown-body a:hover {
+            border-bottom-color: #660000;
+        }
+
+        .markdown-body blockquote {
+            border-left: 4px solid #D4AF37; /* var(--im-yellow) */
+            padding-left: 1em;
+            color: #666;
+            font-style: italic;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="wiki-nav">
+        <a href="../index.html" class="back-link">
+            <span>←</span> Back to Presentation
+        </a>
+    </nav>
+
+    <div class="wiki-container">
+        <div class="markdown-body">
+            <h1>6. Strategic Questions &amp; Trigger Points</h1>
+<p><strong>The Watchtower</strong>: A living list of the &quot;Big Questions&quot; we haven&#39;t answered yet, and the &quot;Trigger Points&quot; that will force us to act.</p>
+<h2>Trigger Points</h2>
+<blockquote>
+<p><em>If the world changes X, we do Y.</em></p>
+</blockquote>
+<ul>
+<li><strong>Trigger 1</strong>: If <strong>AI commoditizes &quot;Strategy Formulation&quot;</strong> (i.e., GPT-6 writes better strategies than partners)...<ul>
+<li><strong>Then</strong>: We shift 100% of our business model to <strong>&quot;Execution &amp; Change&quot;</strong>. We stop selling &quot;slides&quot; and sell &quot;outcomes.&quot;</li>
+</ul>
+</li>
+<li><strong>Trigger 2</strong>: If <strong>Clients successfully build internal &quot;AI Studios&quot;</strong>...<ul>
+<li><strong>Then</strong>: We pivot from &quot;Building AI for them&quot; to <strong>&quot;Governing their AI&quot;</strong>. We become the &quot;Quality Assurance&quot; and &quot;Ethics&quot; auditors for their internal teams.</li>
+</ul>
+</li>
+<li><strong>Trigger 3</strong>: If <strong>A major competitor (McKinsey/Accenture) releases a fully automated &quot;Consultant-in-a-Box&quot;</strong>...<ul>
+<li><strong>Then</strong>: We double down on <strong>&quot;High-Touch&quot;</strong> and <strong>&quot;Political Complexity&quot;</strong>. We market ourselves as the <em>premium</em> human alternative to their robot.</li>
+</ul>
+</li>
+</ul>
+<h2>The Deep Dive: Questions Behind the Question</h2>
+<p><em>These are the fundamental tensions that underpin our strategic choices. We must solve these to unlock the answers.</em></p>
+<ol>
+<li><strong>M&amp;A: The Culture vs. Speed Paradox</strong><ul>
+<li><blockquote>
+<p><em>If we buy to speed up (Acqui-hire), do we dilute the &#39;Implement Soul&#39; that is our main differentiator?</em></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><strong>Product: The Service vs. Product Tension</strong><ul>
+<li><blockquote>
+<p><em>Can a consultancy sell &#39;products&#39; without becoming a vendor? Does the &#39;product&#39; serve the &#39;advice&#39;, or does the advice sell the product?</em></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><strong>Internal Apps: The Builder&#39;s Trap</strong><ul>
+<li><blockquote>
+<p><em>Does building our own OS make us &#39;sovereign&#39; or just &#39;distracted&#39;? Are we building for <em>client value</em> or <em>consultant ego</em>?</em></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><strong>Hiring: The Generalist&#39;s Fate</strong><ul>
+<li><blockquote>
+<p><em>In a world of specialized AI agents, is the &#39;Smart Generalist&#39; a dying breed or the <em>only</em> breed that matters?</em></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><strong>Commercial: The Value Abyss</strong><ul>
+<li><blockquote>
+<p><em>If we stop charging for time, we must charge for value. But are we brave enough to share the <em>risk</em> of that value not materializing?</em></p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><a href="./README.html">Back to Index</a></p>
+
+        </div>
+    </div>
+
+</body>
+</html>
